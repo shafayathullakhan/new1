@@ -6,7 +6,7 @@ function Home() {
   const [citySearched, setCitySearched] = useState("");
   
   const mutation = (new graphQLObjectType[
-    (getbankname, { data, error })
+    (ifsc code,getbankname, { data, error })
   ]() = useLazyQuery(GET_WEATHER_QUERY, {
     variables: { name: bankSearched }
   }));
